@@ -1,4 +1,6 @@
 <?php
 $Nom = "Le chatcasque";
 $Prix = "30$";
-$Url = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ldlc.com%2Ffiche%2FPB00336045.html&psig=AOvVaw0v9oqTl5O5cc2CEyJZg6jt&ust=1643115613460000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCIj2vbS4yvUCFQAAAAAdAAAAABAK";
+$Url = <img src="https://media.ldlc.com/r1600/mkp/9044035fb1e741bfbacc0f24e288e469.jpeg" alt="Casque à oreille de chat">
+
+echo "Le nom du produit est $Nom sont prix est de $Prix et le lien est $Url";
