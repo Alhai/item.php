@@ -17,6 +17,7 @@ $Url = "https://media.ldlc.com/r1600/mkp/9044035fb1e741bfbacc0f24e288e469.jpeg";
 echo "Le nom du produit est $Nom sont prix est de $Prix";
 echo "<img src=\"$Url\" alt=\"banana\">";
 ?>
+<?php include 'catalog-with-keys.php'?>
 <?php include 'footer.php' ?>
 </body>
 </html>

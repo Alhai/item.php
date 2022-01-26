@@ -100,7 +100,7 @@
               <a href="">
                 <img
                   class="icon_hover"
-                  src="./src_footer_header/cart.png"
+                  src="src_footer_header/cart.png"
                   alt="icon_cart"
                   width="30"
                   height="30"
