@@ -1,7 +1,8 @@
  <!-- Code below = Footer -->
  <footer>
       <div class="logo_footer">
-        <img src="./src_footer_header/logo.svg" alt="logo de Tiki's" />
+        <img src="./src_footer_header/sticker-note-de-musique-noire.jpg" alt="logo de Tiki's" />
+        
       </div>
 
       <div class="footer_wrapper">
@@ -18,7 +19,7 @@
           </div>
           <div class="phone_number">
             <img
-              src="./src_footer_header/headset.png"
+              src="src_footer_header/headset.png"
               width="40"
               height="40"
               alt="photo d'un micro-casque"

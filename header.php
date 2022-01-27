@@ -88,33 +88,7 @@
               <a class="nav-link" href="./catalogue.html">Catalogue</a>
             </li>
             <li class="icons_header">
-              <a href="./login.html">
-                <img
-                  class="icon_hover"
-                  src="./src_footer_header/profile.png"
-                  alt="icon_profile"
-                  width="30"
-                  height="30"
-                />
-              </a>
-              <a href="">
-                <img
-                  class="icon_hover"
-                  src="src_footer_header/cart.png"
-                  alt="icon_cart"
-                  width="30"
-                  height="30"
-                />
-              </a>
-              <a href="">
-                <img
-                  class="icon_hover"
-                  src="./src_footer_header/search.png"
-                  alt="icon_search"
-                  width="30"
-                  height="30"
-                />
-              </a>
+            
             </li>
           </ul>
         </div>

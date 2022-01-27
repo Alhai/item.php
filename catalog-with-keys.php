@@ -1,61 +1,42 @@
-<div class="global_wrapper">
-      <h1 class="titles_sections">Notre catalogue de Fruits-Exotiques</h1>
+<?php
+$chatcasqueRose= [
+    "Nom" => "Le chatcasque Rose",
+    "Prix" => "30$",
+    "Poids" => "200",
+    "discount" => 10,
+    "Url" => "https://www.cdiscount.com/pdt2/1/4/7/3/700x700/hom0753308545147/rw/casque-d-oreille-chat-casque-sans-fil-pliable-casq.jpg",
+];
 
-      <div class="description_catalogue">
-        <p>
-          En quête d’aventure gustative ? Tiki’s Fruits vous propose un
-          catalogue qui vous fera voyager, que sa soit en Asie, aux Caraïbes ou
-          encore en Afrique enfin je crois que vous l’aurais compris, nos fruits
-          éxotiques viennent des 4 coins du Globe et vous sont servis frais.
-        </p>
-      </div>
+$chatcasqueViolet = [
+    "Nom" => "Le chatcasque Violet",
+    "Prix" => 34,
+    "Poids" => 200,
+    "discount" => 3,
+    "Url" => "https://www.cdiscount.com/pdt2/2/1/2/1/700x700/one0761276024212/rw/sans-fil-bluetooth-5-0-casque-led-lumiere-garcon-e.jpg",];
 
-     
+        foreach ($chatcasqueRose as $Caracteristique => $value) {
+            
 
-        <div class="shopping_area">
-          <a href="./produits/ananas.html">
-            <div class="products">
-              <img
-                src="./src/Fruits-Exotique/Ananas.jpg"
-                width="260"
-                height="228"
-                alt="photo d'un ananas"
-              />
-              <p class="product_title">Ananas</p>
-              <p class="product_price">1K - 5.80</p>
-              <button>AJOUTER AU PANIER</button>
-            </div>
-          </a>
+            if ($Caracteristique === "Url"){
+              echo "<img src=" . $chatcasqueRose["Url"] . " alt= image d'un casque de chat rose>" ;
+            }
+            else{
+              echo $Caracteristique . ":" . $value . "<br>" ;
+            }
 
-          <a href="./produits/goyave.html">
-            <div class="products">
-              <img
-                src="./src/Fruits-Exotique/Goyave.jpg"
-                width="260"
-                height="228"
-                alt="photo d'une goyave"
-              />
-              <p class="product_title">Goyave</p>
-              <p class="product_price">1K - 4.79€</p>
-              <button>AJOUTER AU PANIER</button>
-            </div>
-          </a>
-          <a href="./produits/ramboutan.html">
-            <div class="products">
-              <img
-                src="./src/Fruits-Exotique/Ramboutan.jpg"
-                width="260"
-                height="228"
-                alt="photo d'un ramboutan"
-              />
-              <p class="product_title">Ramboutan</p>
-              <p class="product_price">1K - 7.20€</p>
-              <button>AJOUTER AU PANIER</button>
-            </div>
-          </a>
 
+        }
+        foreach ($chatcasqueViolet as $Caracteristique2 => $value2) {
+            
+
+            if ($Caracteristique2 === "Url"){
+              echo "<img src=" . $chatcasqueViolet["Url"] . " alt= image d'un casque de chat rose>" ;
+            }
+            else{
+              echo $Caracteristique2 . ":" . $value2 . "<br>" ;
+            }
+
+
+      }
        
-      
-          
-        </div>
-    </div>
+?>
