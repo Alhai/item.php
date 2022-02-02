@@ -1,75 +1,16 @@
- <!-- Code below = Footer -->
- <footer>
-      <div class="logo_footer">
-        <img src="./src_footer_header/sticker-note-de-musique-noire.jpg" alt="logo de Tiki's" />
-        
-      </div>
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="text-muted">© 2022 Aly, Inc</span>
+    </div>
 
-      <div class="footer_wrapper">
-        <div class="footer_left">
-          <hr />
-          <div class="location">
-            <img
-              src="./src_footer_header/home.png"
-              width="40"
-              height="40"
-              alt="icone d une maison"
-            />
-            <p>TIKI'S<br />45 rue de l'épice<br />45236 Bourg-la-Reine</p>
-          </div>
-          <div class="phone_number">
-            <img
-              src="src_footer_header/headset.png"
-              width="40"
-              height="40"
-              alt="photo d'un micro-casque"
-            />
-            <p>02 32 65 98 56</p>
-          </div>
-        </div>
-
-        <div class="footer_center">
-          <hr />
-          <div class="legal_mentions">
-            <p>INFORMATIONS</p>
-            <p>Politique de confidentialité</p>
-            <p>Conditions Générales de Vente</p>
-            <p>Politique de confidentialité</p>
-            <p>Politique de retour</p>
-          </div>
-        </div>
-
-        <div class="footer_right">
-          <hr />
-          <p>NOS RÉSEAUX</p>
-          <div class="icons_social">
-            <img
-              src="./src_footer_header/facebook.png"
-              width="45"
-              height="45"
-              alt="logo de facebook"
-            />
-            <img
-              src="./src_footer_header/instagram.png"
-              width="45"
-              height="45"
-              alt="logo d'instagram"
-            />
-            <img
-              src="./src_footer_header/twitter.png"
-              width="45"
-              height="45"
-              alt="logo de twitter"
-            />
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-
-  <!-- End of Footer -->
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </footer>
+</div>
