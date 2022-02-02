@@ -26,24 +26,29 @@ function discount($Prix, $discount) {
     return $reduction;
   } 
   function showsProduct($products){
-    foreach ($products as $keys => $product) {         
-      foreach ($product as $key => $infoproduct ){
-        if ($key === "Prix"){
-          echo " Prix" . formatprice($infoproduct).' TTC'. "\n" ."<br>";
-          echo priceExcludingVAT($infoproduct/100,20). " €" . " Prix " ."HT"."<br>";  
-        }
-        elseif($key === "discount"){
-          echo displayDiscountPrice($product["Prix"],$infoproduct) ."\n";
-        }
-        else {
-          echo "<p>" . $key . ":" . $infoproduct . "<br>"."</p>" ;
-        }
-      }
-      afficheImg($product);
+    foreach ($products as $keys => $product) {  
+          // var_dump($product);
+          echo "<h3>" . $product["Nom"] . "</h3>" . "<br>";   
+          afficheImg($product);
+        echo "<h3>" . $product["Prix"]. formatprice($product) . "</h3>";
+      // foreach ($product as $key => $infoproduct){
+      //   if ($key === "Prix"){
+      //     echo " Prix" . formatprice($infoproduct).' TTC' . "\n" ."<br>";
+      //     echo priceExcludingVAT($infoproduct/100,20). "€" . " Prix " ."HT"."<br>";  
+      //   }
+      //   elseif($key === "discount"){
+        
+      //     echo displayDiscountPrice($product["Prix"],$infoproduct) . "€" . " Prix après promo " ."\n";
+      //   }
+      //   else {
+      //     echo "<p>" . $key . ":" . $infoproduct . "<br>"."</p>" ;
+      //   }
+      // }
+      
     }  
   }
-  function afficheImg($balec){
+  function afficheImg($Img){
     
-    echo "<img src=" . $balec["Url"] . " alt= image d'un casque de chat rose >" ;
+    echo "<img src=" . $Img["Url"] . " alt= image d'un casque de chat rose >" ;
   }
 ?>
