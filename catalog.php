@@ -5,6 +5,7 @@ $products = [
       "Prix" => 60000,
       "Poids" => "200",
       "discount" => 10,
+      "description" => "Voici les AirPods Max. L’accord parfait entre un son haute fidélité enivrant et la magie intuitive des AirPods. Préparez‑vous pour une expérience d’écoute inouïe.",
       "Url" => "https://www.cdiscount.com/pdt2/1/4/7/3/700x700/hom0753308545147/rw/casque-d-oreille-chat-casque-sans-fil-pliable-casq.jpg",
     ],
   
@@ -22,8 +23,7 @@ $products = [
       "Prix" => 25000,
       "Poids" => 200,
       "discount" => 30,
-      "description" => "Le Beyerdynamic DT880 Pro est un casque circum-auriculaire de type semi-ouvert adoptant une impédance de 250 Ohms. <br> 
-        Il se démarque du DT880 Edition par un arceau ajustable plus ferme et un long câble spiralé. Il trouvera idéalement sa place en studio, dans le cadre de longues sessions d’enregistrement et de mixage.<br> Egalement adapté à un usage hi-fi, ce casque studio est apprécié dans le monde entier pour son grave précis, son médium équilibré, et son aigu cristallin. Un must have !",
+      "description" => "Le Beyerdynamic DT 770 Pro 80 est un casque dynamique fermé, conçu pour le contrôle et le monitoring avec une impédance de 80 ohms. Il est depuis toujours un accessoire essentiel dans les studios du monde entier.",
       "Url" => "https://cdn3.cobra.fr/65913/800x800/image.jpg",
     ],
   ];
