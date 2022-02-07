@@ -11,6 +11,7 @@
     <?php 
         require "my-functions.php";
         include "header.php";
+        // include "card.php";
         include "main.php";
         include "footer.php";
     ?>  
