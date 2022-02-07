@@ -30,7 +30,7 @@ function discount($Prix, $discount) {
           // var_dump($product);
           echo "<h3>" . $product["Nom"] . "</h3>" . "<br>";   
           afficheImg($product);
-        echo "<h3>" . $product["Prix"]. formatprice($product) . "</h3>";
+        // echo "<h3>" . $product["Prix"]. formatprice($product) . "</h3>";
       // foreach ($product as $key => $infoproduct){
       //   if ($key === "Prix"){
       //     echo " Prix" . formatprice($infoproduct).' TTC' . "\n" ."<br>";
