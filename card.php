@@ -5,9 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
 </head>
 <body>
+<!-- Contact Section-->
+<section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Nos Vedettes</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="card_catalog">
     <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="./images_casques\airpods-max-select-silver-202011.png" alt="Card image cap">
   <div class="card-body">
@@ -46,6 +59,13 @@
     <li class="list-group-item">Vestibulum at eros</li>
   </ul>
 </div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 </body>
 </html>
 
