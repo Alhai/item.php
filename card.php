@@ -35,7 +35,7 @@
                     </div>
                     <ul class="list-group list-group-flush">
                       <li class="list-group-item">Coloris : Noir</li>
-                      <li class="list-group-item">600 €</li>
+                      <li class="list-group-item">600  €</li>
                       <li class="list-group-item">Réduction </li>
                     </ul>
                   </div>

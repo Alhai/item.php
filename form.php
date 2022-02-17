@@ -38,21 +38,21 @@
                                         <td>Air Pods Max</td>
                                         <td><input type="number" class="form-control" id="exampleInputPassword1"></td>
                                         <td>@mdo</td>
-                                        <td>600 €</td>
+                                        <td>60000</td>
                                         </tr>
                                         <tr>
                                         <th scope="row"></th>
                                         <td>Montblanc over-ear MB 01</td>
                                         <td><input type="number" class="form-control" id="exampleInputPassword1"></td>
                                         <td>@fat</td>
-                                        <td>595 €</td>
+                                        <td>59500</td>
                                         </tr>
                                         <tr>
                                         <th scope="row"></th>
                                         <td>BeyerDynamic DT 770 PRO</td>
                                         <td><input type="number" class="form-control" id="exampleInputPassword1"></td>
                                         <td>@twitter</td>
-                                        <td>100 €</td>
+                                        <td>11900</td>
                                         </tr>
                                     </tbody>
                                 </table>
