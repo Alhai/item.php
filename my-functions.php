@@ -27,28 +27,29 @@ function discount($Prix, $discount) {
   } 
   function showsProduct($products){
     foreach ($products as $keys => $product) {  
-          // var_dump($product);
-          echo "<h3>" . $product["Nom"] . "</h3>" . "<br>";   
-          afficheImg($product);
-        // echo "<h3>" . $product["Prix"]. formatprice($product) . "</h3>";
-      // foreach ($product as $key => $infoproduct){
-      //   if ($key === "Prix"){
-      //     echo " Prix" . formatprice($infoproduct).' TTC' . "\n" ."<br>";
-      //     echo priceExcludingVAT($infoproduct/100,20). "€" . " Prix " ."HT"."<br>";  
-      //   }
-      //   elseif($key === "discount"){
-        
-      //     echo displayDiscountPrice($product["Prix"],$infoproduct) . "€" . " Prix après promo " ."\n";
-      //   }
-      //   else {
-      //     echo "<p>" . $key . ":" . $infoproduct . "<br>"."</p>" ;
-      //   }
-      // }
-      
+          
+          echo '<div class="card" style="width: 18rem;">';
+          afficheDescription($product);
+          afficheInfos($product);
+          
+          echo '</div>';
     }  
   }
-  function afficheImg($Img){
-    
-    echo "<img src=" . $Img["Url"] . " alt= image d'un casque de chat rose >" ;
+  function afficheImg($product){
+      afficheImg($product);
+  }
+  function afficheDescription($product){
+    echo ' <div class="card-body">';
+    echo '<img class="card-img-top" src="' . $product["Image"] . '" alt="Card image cap">';
+      echo '<h5 class="card-title">'.$product["Nom"] .'</h5>';
+      echo '<p class="card-text">'.$product["description"] .'</p>';
+    echo '</div>';
+  }
+  function afficheInfos($product){
+    echo '<ul class="list-group list-group-flush">';
+      echo '<li class="list-group-item">'.'</li>';
+      echo '<li class="list-group-item">'.'</li>';
+      echo '<li class="list-group-item">'.'</li>';
+    echo '</ul>';
   }
 ?>
