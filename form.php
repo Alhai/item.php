@@ -13,7 +13,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
 
-                        <form>
+                        <form action="submit_form.php" method="post">                                                                                                  
                             <div class="bd-example">
                                 <table class="table table-striped table-hover">
                                     <thead>
@@ -30,46 +30,30 @@
                                         <tr>
                                         <th scope="row"></th>
                                         <td>Air Pods Max</td>
-<<<<<<< HEAD
-                                        <td><input type="number" class="form-control" id="exampleInput"></td>
+                                        <td><input name="quantity1" type="number" class="form-control"  placeholder="0" id="exampleInput" ></td>
                                         <td>0.00</td>
                                         <td>600 €</td>
-=======
-                                        <td><input type="number" class="form-control" id="exampleInputPassword1"></td>
-                                        <td>@mdo</td>
-                                        <td>60000</td>
->>>>>>> eed857925cf3ac1c546da80df37c32ec8f6efe03
+                                        <td><button type="submit" class="btn btn-primary">COMMANDER</button></td>
                                         </tr>
                                         <tr>
                                         <th scope="row"></th>
                                         <td>Montblanc over-ear MB 01</td>
-<<<<<<< HEAD
-                                        <td><input type="number" class="form-control" id="exampleInput"></td>
+                                        <td><input name="quantity2" type="number" class="form-control" placeholder="0" id="exampleInput" ></td>
                                         <td>0.00</td>
                                         <td>595 €</td>
-=======
-                                        <td><input type="number" class="form-control" id="exampleInputPassword1"></td>
-                                        <td>@fat</td>
-                                        <td>59500</td>
->>>>>>> eed857925cf3ac1c546da80df37c32ec8f6efe03
+                                        <td><button type="submit" class="btn btn-primary">COMMANDER</button></td>
                                         </tr>
                                         <tr>
                                         <th scope="row"></th>
                                         <td>BeyerDynamic DT 770 PRO</td>
-<<<<<<< HEAD
-                                        <td><input type="number" class="form-control" id="exampleInput"></td>
+                                        <td><input name="quantity3" type="number" class="form-control" placeholder="0" id="exampleInput" ></td>
                                         <td>0.00</td>
                                         <td>100 €</td>
-=======
-                                        <td><input type="number" class="form-control" id="exampleInputPassword1"></td>
-                                        <td>@twitter</td>
-                                        <td>11900</td>
->>>>>>> eed857925cf3ac1c546da80df37c32ec8f6efe03
+                                      <td><button type="submit" class="btn btn-primary">COMMANDER</button></td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <button type="submit" class="btn btn-primary">COMMANDER</button>
                         </form>
                     </div>
                 </div>
