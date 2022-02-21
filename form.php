@@ -12,13 +12,7 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
+
                         <form>
                             <div class="bd-example">
                                 <table class="table table-striped table-hover">
@@ -36,28 +30,28 @@
                                         <tr>
                                         <th scope="row"></th>
                                         <td>Air Pods Max</td>
-                                        <td><input type="number" class="form-control" id="exampleInputPassword1"></td>
-                                        <td>@mdo</td>
+                                        <td><input type="number" class="form-control" id="exampleInput"></td>
+                                        <td>0.00</td>
                                         <td>600 €</td>
                                         </tr>
                                         <tr>
                                         <th scope="row"></th>
                                         <td>Montblanc over-ear MB 01</td>
-                                        <td><input type="number" class="form-control" id="exampleInputPassword1"></td>
-                                        <td>@fat</td>
+                                        <td><input type="number" class="form-control" id="exampleInput"></td>
+                                        <td>0.00</td>
                                         <td>595 €</td>
                                         </tr>
                                         <tr>
                                         <th scope="row"></th>
                                         <td>BeyerDynamic DT 770 PRO</td>
-                                        <td><input type="number" class="form-control" id="exampleInputPassword1"></td>
-                                        <td>@twitter</td>
+                                        <td><input type="number" class="form-control" id="exampleInput"></td>
+                                        <td>0.00</td>
                                         <td>100 €</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary">COMMANDER</button>
                         </form>
                     </div>
                 </div>
