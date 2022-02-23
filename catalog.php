@@ -22,8 +22,8 @@ $products = [
     
     "BeyerDynamic" => [
       "Nom" => "BEYERDYNAMIC DT 770 PRO",
-      "Prix" => 25000,
-      "Poids" => 200,
+      "Prix" => 11999,
+      "Poids" => 150,
       "VAT" => 20,
       "discount" => 30,
       "description" => "Le Beyerdynamic DT 770 Pro 80 est un casque dynamique fermé, conçu pour le contrôle et le monitoring avec une impédance de 80 ohms. Il est depuis toujours un accessoire essentiel dans les studios du monde entier.",
