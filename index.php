@@ -20,6 +20,7 @@
     <body id="page-top">
 
         <?php 
+            require "database.php";
             require "catalog.php";
             include "header.php";
             include "card.php";

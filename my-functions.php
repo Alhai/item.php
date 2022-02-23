@@ -1,6 +1,6 @@
 <?php 
 
-require "catalog.php";
+require "oldcatalog.php";
 
 /* Fonction pour afficher le prix en euros*/
 function formatprice($centimes){
@@ -46,9 +46,12 @@ function discount($Prix, $discount) {
       echo '<li class="list-group-item">' . '<b>'. "Après réduction ".'</b>'.displayDiscountPrice($product["Prix"], $product["discount"])." €".  '</li>';
     echo '</ul>';
   }
-  function errorMessage($products){
-   
-  }
+/* Fonction changer le prix avec la quantité */
+function priceChange($Price, $Quantity){
+
+}
+
+
  /* Fonction qui affiche */
 function showsProduct($products){
     foreach ($products as $key => $product) {  
