@@ -1,4 +1,6 @@
-<?php require "my-functions.php"; 
+<?php 
+require "my-functions.php"; 
+//    require "database.php"; 
   ?>
 
 <!-- Contact Section-->
@@ -13,7 +15,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <div class="card_catalog"> 
-                 <?php showsProduct($products) ?>
+                 <?php showsProduct(bddCatalog($db)) ?>
                  
                 </div>
             </div>

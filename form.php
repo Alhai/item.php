@@ -17,7 +17,6 @@
                             <div class="bd-example">
                                 <table class="table table-striped table-hover">
                                     <thead>
-                                        
                                         <tr>
                                         <th scope="col"></th>
                                         <th scope="col">Article</th>
@@ -30,7 +29,7 @@
                                         <tr>
                                         <th scope="row"></th>
                                         <td>Air Pods Max</td>
-                                        <td><input name="quantity1" type="number" class="form-control"  placeholder="0" id="exampleInput" ></td>
+                                        <td><input name="AirPods Max" type="number" class="form-control"  placeholder="0" id="exampleInput" ></td>
                                         <!-- <td>0.00</td> -->
                                         <td>600 €</td>
                                         <td><button type="submit" class="btn btn-primary">COMMANDER</button></td>
@@ -38,7 +37,7 @@
                                         <tr>
                                         <th scope="row"></th>
                                         <td>Montblanc over-ear MB 01</td>
-                                        <td><input name="quantity2" type="number" class="form-control" placeholder="0" id="exampleInput" ></td>
+                                        <td><input name="Casque over-ear Montblanc MB 01" type="number" class="form-control" placeholder="0" id="exampleInput" ></td>
                                         <!-- <td>0.00</td> -->
                                         <td>595 €</td>
                                         <td><button type="submit" class="btn btn-primary">COMMANDER</button></td>
@@ -46,7 +45,7 @@
                                         <tr>
                                         <th scope="row"></th>
                                         <td>BeyerDynamic DT 770 PRO</td>
-                                        <td><input name="quantity3" type="number" class="form-control" placeholder="0" id="exampleInput" ></td>
+                                        <td><input name="BeyerDynamic DT-770 Pro 80 Ohm" type="number" class="form-control" placeholder="0" id="exampleInput" ></td>
                                         <!-- <td>0.00</td> -->
                                         <td>100 €</td>
                                       <td><button type="submit" class="btn btn-primary">COMMANDER</button></td>

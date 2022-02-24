@@ -22,10 +22,9 @@
         <?php 
             
             require "database.php";
-            require "catalog.php";
+            // require "catalog.php";
             include "header.php";
             include "card.php";
-            // include "about.php";
             include "form.php";
             include "footer.php";
         ?>

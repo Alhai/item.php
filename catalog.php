@@ -30,4 +30,6 @@ $products = [
       "Image" => "images_casques\Beyerdynamic.jpg",
     ],
   ];
+
+
 ?>
