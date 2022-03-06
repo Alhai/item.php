@@ -1,6 +1,7 @@
 <?php 
 
-// require "catalog.php";
+
+ require "catalog.php";
 
 /* Fonction pour afficher le prix en euros*/
 function formatprice($centimes){
@@ -8,22 +9,22 @@ function formatprice($centimes){
 }
 
 /* Fonction qui calcule le prix sans la tva */
-function priceExcludingVAT($Prix,$VAT){
-  return ceil( (100*$Prix) / (100+$VAT));
+function priceExcludingVAT($price,$vat){
+  return ceil( (100*$price) / (100+$vat));
 } 
 
 /* Fonction qui calcule le % de réduction*/
-function discount($price, $Discount) {
-  $Discount = $price*($Discount/100);
-  $Discount = (floor($Discount)/100);
-  return $Discount;
+function discount($price, $discount) {
+  $Discount = $price*($discount/100);
+  $Discount = (floor($discount)/100);
+  return $discount;
 }
 
  /* Fonction qui affiche le prix remisé*/
-  function displayDiscountPrice($price, $Discount) {
-    $Discount = discount($price, $Discount);
+  function displayDiscountPrice($price, $discount) {
+    $discount = discount($price, $discount);
     $price = $price/100;
-    $reduction = $price - $Discount;
+    $reduction = $price - $discount;
     return $reduction;
 }
  /* Fonction qui affiche l'image */
@@ -46,6 +47,7 @@ function showsProduct($products){
           
           echo '</div>';
     }  
+  
     
   }  
   /* Fonction qui affiche la description du produit*/
@@ -64,8 +66,36 @@ function showsProduct($products){
      echo '<li class="list-group-item">' . '<b>'. "Après réduction ".'</b>'.displayDiscountPrice($product["price"], $product["Discount"])." €".  '</li>';
    echo '</ul>';
  };
-?>
 
+function showShoppingCart($products){
+  foreach($products as $key => $product){
+    echo '<pre>';
+    echo afficheForm($product);
+    echo '<button type="submit"'. 'class="btn btn-primary">'. 'COMMANDER'.'</button>'.'</td> ' ;
+    echo '</pre>';
+    
+  }
+}
+
+function afficheForm($product){
+      
+      echo '<td>'.'<h5>'.'<b>' .'Article : '.'</b>'.$product["name"] .'<br>'.'</h5>'.'</td>';
+      echo '<td>'.'<h5>'.'Pièce : ' . formatprice($product["price"]).  '</td>'. '<br>'.'</h5>'.'</td>'; 
+      echo '<td>'.'<h5>'.'Quantité : '.$product["quantity"].'<br>'.'</h5>'.'</td>';
+      echo '<input name="$product["Nom"]" type="number" class="form-control" placeholder="0" id="exampleInput" >'.'</td>';
+      echo '<td>'.'<h5>'. 'Prix : ' . calculPrice($product["price"]). '</h5>'.'</td>';
+          
+}
+function calculPrice($product){
+      if ($product["quantity" > 0]){
+        $product["price"] === $product["price"] * $product["quantity"];
+      
+    }
+  
+
+
+
+?>
 
 
 

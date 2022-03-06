@@ -4,7 +4,7 @@ require "my-functions.php";
   ?>
 
 <!-- Contact Section-->
-<section class="page-section" id="contact">
+<section class="page-section" id="catalog">
             <div class="container">
                 <!-- Contact Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Nos Vedettes</h2>
