@@ -1,6 +1,6 @@
 <?php 
 require "my-functions.php"; 
-//    require "database.php"; 
+    require "database.php"; 
   ?>
 
 <!-- Contact Section-->

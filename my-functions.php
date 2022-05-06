@@ -17,7 +17,7 @@ function priceExcludingVAT($price,$vat){
 function discount($price, $discount) {
   $Discount = $price*($discount/100);
   $Discount = (floor($discount)/100);
-  return $discount;
+  return $Discount;
 }
 
  /* Fonction qui affiche le prix remisé*/
@@ -91,7 +91,7 @@ function calculPrice($product){
         $product["price"] === $product["price"] * $product["quantity"];
       
     }
-  
+  }  
 
 
 

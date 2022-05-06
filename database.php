@@ -1,6 +1,6 @@
 <?php
 try {
-$db = new PDO("mysql:host=localhost;dbname=casqueco;charset=utf8",
+$db = new PDO("mysql:host=localhost;dbname=casqueandco;charset=utf8",
     'Aly',  'local');
 }
 
